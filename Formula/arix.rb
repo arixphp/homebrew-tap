@@ -1,26 +1,26 @@
 class Arix < Formula
   desc "Development and distribution tooling for ArixPHP"
   homepage "https://github.com/arixphp/cli"
-  version "0.4.3"
+  version "0.4.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/arixphp/cli/releases/download/0.4.3/arix-0.4.3-macos-arm64.tar.gz"
-      sha256 "5270f90d15bc6a51d78d78e35fbd1404537c735e13967c711eb67f66ac8fefe6"
+      url "https://github.com/arixphp/cli/releases/download/0.4.4/arix-0.4.4-macos-arm64.tar.gz"
+      sha256 "cdd070306686a5e586250d09806034fb415c5b8c119bf55d9b7424171dc90791"
     else
-      url "https://github.com/arixphp/cli/releases/download/0.4.3/arix-0.4.3-macos-x64.tar.gz"
-      sha256 "ca25cf1eaed26170f39685ea89dde874f8c09feb19b718f20931d8d42f59a123"
+      url "https://github.com/arixphp/cli/releases/download/0.4.4/arix-0.4.4-macos-x64.tar.gz"
+      sha256 "4883536afddb1d72e250c1410f3c8ceee0587989db64fdb1f9a81d09b739807f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/arixphp/cli/releases/download/0.4.3/arix-0.4.3-linux-arm64.tar.gz"
-      sha256 "10839c8aa02bd87302f867e384ae72fd7065232ade89220854b432a619a0901a"
+      url "https://github.com/arixphp/cli/releases/download/0.4.4/arix-0.4.4-linux-arm64.tar.gz"
+      sha256 "c871adcee540b2013b0e177dc6eb885fc57c4d72c4ac84f297453cf61e6eb5fa"
     else
-      url "https://github.com/arixphp/cli/releases/download/0.4.3/arix-0.4.3-linux-x64.tar.gz"
-      sha256 "f0bdbedd023d830175138c84bc32e41b60d317137f6f44b29442ffcf829af75c"
+      url "https://github.com/arixphp/cli/releases/download/0.4.4/arix-0.4.4-linux-x64.tar.gz"
+      sha256 "13caa17dfe4571061ffa5235c201e9f71dbd0470cdd55c18c915fab95d4f4643"
     end
   end
 
